@@ -13,6 +13,7 @@ use Psr\Http\Message\RequestInterface;
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerAwareTrait;
 
+#[\AllowDynamicProperties]
 class Client implements LoggerAwareInterface
 {
     use LoggerAwareTrait;
